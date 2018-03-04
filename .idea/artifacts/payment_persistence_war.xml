@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="payment_persistence:war">
+    <output-path>$PROJECT_DIR$/payment_persistence/target</output-path>
+    <root id="archive" name="payment-persistence-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="payment_persistence:war exploded" />
+    </root>
+  </artifact>
+</component>

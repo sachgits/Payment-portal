@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/payment_persistence/payment_persistence.iml" filepath="$PROJECT_DIR$/payment_persistence/payment_persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment_portal.iml" filepath="$PROJECT_DIR$/payment_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment_service/payment_service.iml" filepath="$PROJECT_DIR$/payment_service/payment_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment_ui/payment_ui.iml" filepath="$PROJECT_DIR$/payment_ui/payment_ui.iml" />
+    </modules>
+  </component>
+</project>

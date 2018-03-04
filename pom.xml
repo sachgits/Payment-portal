@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Payment Platform Project</name>
+    <description>Make deposits and withdraws safely</description>
+
+    <groupId>org.jaxrs.rocompany</groupId>
+    <artifactId>payment_portal</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>payment_ui</module>
+        <module>payment_service</module>
+        <module>payment_persistence</module>
+    </modules>
+
+    <organization>
+        <name>Rocompany</name>
+        <url>http://localhost:8080/rocompany</url>
+    </organization>
+
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>payment-prj</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>maven-central</id>
+                    <url>http://repo.maven.apache.org/maven2</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+</project>
